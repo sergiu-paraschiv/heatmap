@@ -1,0 +1,9 @@
+{
+  "firebase": "heatmap-client",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

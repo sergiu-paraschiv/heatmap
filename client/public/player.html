@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Heatmap Client</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <h1>Heatmap Client</h1>
+
+    <iframe src="./index.html" id="playerFrame"></iframe>
+
+
+    <script src="bundle.js"></script>
+    <script>
+    Heatmap({
+        player: true,
+        element: document.getElementById('playerFrame')
+    });
+    </script>
+</body>
+
+</html>
